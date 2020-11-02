@@ -1,5 +1,5 @@
 body { 
-    background-color: yellow;
+    background-color: coral; 
 }
 #fire { 
     text-align: center;  
@@ -11,6 +11,18 @@ body {
     text-align: right;
 } 
 
+#paragraph0 { 
+    text-align: center;
+}
+
+#paragraph1 { 
+    text-align: center;
+    
+}
+
 #teach { 
-    width: 30%; 
+    width: 30%;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
