@@ -12,12 +12,19 @@ body {
 } 
 
 #paragraph0 { 
-    text-align: center;
+    text-align: center; 
+    padding-bottom: 10px; 
+    font-size: 18px;  
+    background: black; 
+    color: white; 
 }
 
 #paragraph1 { 
     text-align: center;
-    
+    padding-bottom: 10px; 
+    font-size: 18px;  
+    background: black; 
+    color: white; 
 }
 
 #teach { 
@@ -42,4 +49,11 @@ body {
     flex: 50%;
     padding: 5px;  
 }
-
+ 
+#paragraph2 { 
+    text-align: center;  
+    padding-bottom: 10px; 
+    font-size: 18px;  
+    background: black; 
+    color: white; 
+}
