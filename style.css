@@ -25,4 +25,21 @@ body {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
+} 
+  
+#waterFountain { 
+    width: 30%;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
+
+.locations {  
+    display: flex; 
+}
+
+.column { 
+    flex: 50%;
+    padding: 5px;  
+}
+
