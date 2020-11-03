@@ -67,6 +67,14 @@ body {
     display: block; 
     margin-left: auto; 
     margin-right: auto;
+} 
+
+#game { 
+    width: 30%;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-bottom: 10px; 
 }
 
 .locations {  
@@ -116,7 +124,24 @@ body {
     font-size: 20px;  
     background: black; 
     color: white;  
+}  
+
+#paragraph7 { 
+    text-align: center;  
+    padding-bottom: 50px; 
+    font-size: 20px;  
+    background: black; 
+    color: white;  
 }
+
+#comments { 
+    text-align: center;  
+    padding-bottom: 50px;    
+    background: rgba(30,10,150, .1) 
+}  
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Gudea:700');
 /* GOOGLE FONTS */
@@ -171,7 +196,9 @@ h1 {
     box-sizing: border-box;
     display: grid;
     grid-auto-rows: min-content;
-    grid-gap: 5px;
+    grid-gap: 5px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .allMessages>p {
@@ -183,7 +210,10 @@ h1 {
     margin: 20px 0 40px 0;
     width: 60%;
     border: 2px solid var(--accent);
-    background-color: var(--primaryLight);
+    background-color: var(--primaryLight); 
+    margin-left: auto; 
+    margin-right: auto;  
+    padding-bottom: 100px; 
 }
 
 label {
@@ -244,4 +274,14 @@ form {
     outline-style: none;
     outline-width: 2px;
     outline-color: var(--primarydark);
-}
+} 
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
